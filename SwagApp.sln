@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwagApp.Android", "SwagApp\SwagApp.Android\SwagApp.Android.csproj", "{EDB84B28-90D7-4C10-BD55-48EA850AAFA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwagApp", "SwagApp\SwagApp\SwagApp.csproj", "{5DDE7301-D68B-465B-A298-2A1EBB97C1A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDB84B28-90D7-4C10-BD55-48EA850AAFA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB84B28-90D7-4C10-BD55-48EA850AAFA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB84B28-90D7-4C10-BD55-48EA850AAFA7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EDB84B28-90D7-4C10-BD55-48EA850AAFA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB84B28-90D7-4C10-BD55-48EA850AAFA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB84B28-90D7-4C10-BD55-48EA850AAFA7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5DDE7301-D68B-465B-A298-2A1EBB97C1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DDE7301-D68B-465B-A298-2A1EBB97C1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DDE7301-D68B-465B-A298-2A1EBB97C1A7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5DDE7301-D68B-465B-A298-2A1EBB97C1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DDE7301-D68B-465B-A298-2A1EBB97C1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DDE7301-D68B-465B-A298-2A1EBB97C1A7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9458B2CE-E99E-4E2E-A07D-5466F7C5EE6B}
+	EndGlobalSection
+EndGlobal
