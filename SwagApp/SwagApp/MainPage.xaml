@@ -1,14 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:SwagApp"
-             x:Class="SwagApp.MainPage">
+             x:Class="SwagApp.MainPage"
+             Title="Index"
+             MasterBehavior="Popover">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+    <MasterDetailPage.Master>
+        <ContentPage Padding="10" BackgroundColor="Brown" Title="Master">
+            <ContentPage.Content>
+                <StackLayout Margin="5,30,5,5">
+                    <Button Text="List Page" BackgroundColor="Yellow" Clicked="ListViewBtn_OnClicked"/>
+                    <Button Text="Statistics" BackgroundColor="Yellow" Clicked="StatsBtn_OnClicked"/>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
 
-</ContentPage>
+</MasterDetailPage>
